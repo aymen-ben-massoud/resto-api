@@ -1,0 +1,25 @@
+.footer-logo {
+    height: 50px; }
+    .btn-primary {
+        display: inline-block;
+        background-color: #f34949;
+        border-color: #f34949;
+        color: #fff;
+        border-radius: 30px;
+        padding: 9px 25px;
+        text-transform: capitalize;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s; }
+        .btn-primary:hover {
+          background-color: #e22104;
+          border-color: #e22104;
+          color: #fff; }
+      
+      .btn-shadow {
+        box-shadow: -5px 8px 20px 0px rgba(229, 16, 2, 0.15); }
+a>i {
+            color: #e22104;
+          
+        }

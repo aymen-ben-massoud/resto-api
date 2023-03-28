@@ -1,0 +1,55 @@
+<div class="container"><div class="row">
+    <div class="col-12">
+      <div class="bestsellers"><h1>
+      <b>       Our </b>  Menu
+      </h1></div>
+    </div>
+  </div></div>
+ 
+  <div class="container">
+  <div class="row justify-content-center">
+ <div class="text-center"><h1 class="foodmenu">food menu</h1></div>  
+    <div class="col-auto"  *ngFor="let item of productlist">
+      <div class="card"   >
+        <img src="{{item.strCategoryThumb}}"  routerLink="/details/{{ item.strCategory }}" class="card-img-top" alt="..." />
+  
+        <div class="textofcard">
+        
+            <h5 class="card-title  "  > {{item.strCategory}} </h5>
+        
+  
+        
+         
+         
+           
+        
+  
+        </div>
+      </div>
+    </div>
+   
+  
+  </div>
+  </div>
+  <!-- drinks -->
+
+
+  
+ 
+  <div class="container mt-5">
+  <div class="row justify-content-center">
+ <div class="text-center"><h1 class="foodmenu">drinks menu</h1></div>  
+    <div class="col-auto"  *ngFor="let item2 of productlist2">
+      <div class="card"   >
+        <img src="{{item2.strDrinkThumb}}"  class="card-img-top" alt="..." />
+  
+        <div class="textofcard">
+        
+            <h5 class="card-title "> {{item2.strDrink}} </h5>
+        </div>
+      </div>
+    </div>
+   
+  
+  </div>
+  </div>

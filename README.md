@@ -1,2 +1,2 @@
-# resto-api
-resto-api
+# restaurant
+restaurant
